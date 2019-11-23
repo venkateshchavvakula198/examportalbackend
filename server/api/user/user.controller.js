@@ -34,7 +34,9 @@ exports.create = function (req, res, next) {
     res.json({ token: token ,user:user});
   });
 };
-
+exports.adduserfromexcel =function(req,res,next){
+  
+}
 /**
  * Get a single user
  */
